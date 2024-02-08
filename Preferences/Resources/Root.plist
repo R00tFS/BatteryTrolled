@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Battery Trolled</string>
+			<key>footerText</key>
+			<string>Made by bibi_fire</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>fr.bibifire.batterytrolledprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled (Settings restart required)</string>
+			<key>PostNotification</key>
+			<string>fr.bibifire.batterytrolled-prefs-updated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>fr.bibifire.batterytrolledprefs</string>
+			<key>key</key>
+			<string>overwriteBy</string>
+			<key>label</key>
+			<string>Battery :</string>
+			<key>placeholder</key>
+			<string>Overwerite By</string>
+			<key>PostNotification</key>
+			<string>fr.bibifire.batterytrolled-prefs-updated</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>BatteryTrolled</string>
+</dict>
+</plist>

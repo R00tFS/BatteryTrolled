@@ -1,0 +1,9 @@
+Package: fr.bibifire.batterytrolled
+Name: BatteryTrolled
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Overwrite Maximum Capacity in Preferences
+Maintainer: bibi_fire
+Author: bibi_fire
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
